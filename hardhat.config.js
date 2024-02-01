@@ -5,15 +5,14 @@ module.exports = {
   defaultNetwork: "localhost",
   networks: {
     localhost: {
-      allowUnlimitedContractSize: true
+      allowUnlimitedContractSize: true,
     }
   },
   solidity: "0.8.19",
   settings: {
     optimizer: {
       enabled: true,
-      runs: 200,
-      details: { yul: false },
+      runs: 1000,
     },
   },
 };
